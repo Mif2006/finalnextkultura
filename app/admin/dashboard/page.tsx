@@ -71,21 +71,21 @@ export default function AdminDashboard() {
     },
   ];
 
-  const generalSections = [
-    {
-      title: 'Навигация',
-      description: 'Управление логотипом и телефонами в шапке',
-      href: '/admin/dashboard/navbar',
-      icon: '🧭',
-    },
+  // const generalSections = [
+  //   {
+  //     title: 'Навигация',
+  //     description: 'Управление логотипом и телефонами в шапке',
+  //     href: '/admin/dashboard/navbar',
+  //     icon: '🧭',
+  //   },
 
-    {
-      title: 'Футер',
-      description: 'Управление контактами и ссылками в футере',
-      href: '/admin/dashboard/footer',
-      icon: '🔗',
-    },
-  ];
+  //   {
+  //     title: 'Футер',
+  //     description: 'Управление контактами и ссылками в футере',
+  //     href: '/admin/dashboard/footer',
+  //     icon: '🔗',
+  //   },
+  // ];
 
   return (
     <AdminLayout>
@@ -134,7 +134,7 @@ export default function AdminDashboard() {
           <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
             <span>⚙️</span> Общие настройки
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {generalSections.map(section => (
               <Link
                 key={section.href}
@@ -146,7 +146,7 @@ export default function AdminDashboard() {
                 <p className="text-gray-600 text-sm">{section.description}</p>
               </Link>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </AdminLayout>
