@@ -156,7 +156,7 @@ export const DEFAULT_FOOTER = {
   company_phone: '+375 33 342-88-88',
   company_email: 'info@kulturahotel.by',
   facebook_url: 'https://facebook.com',
-  instagram_url: 'https://instagram.com/kulturahotel',
+  instagram_url: 'https://www.instagram.com/kultura.cafe.grodno',
 };
 
 export const DEFAULT_NAVBAR = {
